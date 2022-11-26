@@ -2,9 +2,28 @@ h1{
     color: #251B37;
     font-size: 5vw;
     text-align: center;
+}
+
+h2{
+    position: relative;
+    font-size: 2vw;
+    left: 4vw;
+    color: #171122;
+}
+
+.text{
     text-decoration: underline solid #F1BBD5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+p.text{
+    font-size: 1.5vw;
+    color: #F1BBD5;
+    text-decoration: none;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 img.logo{
     position: relative;
     width: 6vw;
@@ -26,6 +45,7 @@ img.logo{
 }
 
 .code-block{
+    font-size: 1.2vw;
     display: block;
     outline: 0.1vw solid #83556b;
     color: #F1BBD5;
