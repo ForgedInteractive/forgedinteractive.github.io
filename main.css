@@ -47,7 +47,6 @@ img.logo{
 .code-block{
     font-size: 1.2vw;
     display: block;
-    outline: 0.1vw solid #83556b;
     color: #F1BBD5;
 }
 
@@ -64,4 +63,16 @@ div.spacer{
 
 body{
     background-color: #45385e;
+    overflow-x: hidden;
+}
+
+footer{
+    position: static;
+    background-color: #322f38;
+    height: 5vw;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    outline: 0.25vw solid black;
+    overflow-y: scroll;
 }
